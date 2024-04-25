@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Sonhar acordado faz bem!");
 
         //Instanciando uma classe, construindo um objeto
 
@@ -10,16 +10,16 @@ public class App {
 
 
         Carro meuCarro = new Carro();
-        meuCarro.ano = "2024";
-        meuCarro.cor = "vermelho perolizado";
-        meuCarro.modelo = "Jeep Compass";
+        meuCarro.setAno("2024");
+        meuCarro.setCor("Vermelho Perolizado");
+        meuCarro.setModelo("Jeep Compass");
 
         
         System.out.println(pessoa1.getNome());
         System.out.println(pessoa1.getIdade());
-        System.out.println(meuCarro.ano);
-        System.out.println(meuCarro.cor);
-        System.out.println(meuCarro.modelo);
+        System.out.println(meuCarro.getAno());
+        System.out.println(meuCarro.getModelo());
+        System.out.println(meuCarro.getCor());
 
     }
 }
